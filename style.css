@@ -1,0 +1,15 @@
+Grid{
+    color: hsl(192, 100%, 9%);
+     color: hsl(208, 11%, 55%);}
+.first{
+    background-image: url(https://tinyurl.com/2p8rne9b);
+    background-color:hsl(193, 100%, 96%);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.top-body{
+    display: flex;
+    justify-content: space-between;
+}
