@@ -1,15 +1,139 @@
 Grid{
     color: hsl(192, 100%, 9%);
-     color: hsl(208, 11%, 55%);}
-.first{
+    color: hsl(322, 100%, 66%);
+    color: hsl(208, 11%, 55%);}
+body{
+    background-color:rgb(243, 238, 238);
+    margin: 4.2rem;
+    font-size: 18px;
+    font-family: 'Open Sans';
+}
+header{
     background-image: url(https://tinyurl.com/2p8rne9b);
+    background-attachment: fixed; 
+    background-size: 100% 100%;
     background-color:hsl(193, 100%, 96%);
+    padding:5rem;
+    padding-top: 3rem;
 }
-.header{
+button{
+    border: none;
+    border-radius: 2rem;
+    }
+.hdr-top{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 3rem;
 }
-.top-body{
+.logo{
+    width: 6%;
+}
+.tif-btn{
+    background-color: white;
+    box-shadow:4px 4px 4px 2px rgba(194, 184, 184, 0.274);
+    font-weight: bolder;
+    font-size: smaller;
+    padding: 1rem;
+    width: 12rem;
+
+}
+.hdr-btm{
+    display: grid;
+    grid-template-columns:41% 59%;
+    align-items: center;
+    justify-content:center;
+}
+.text h1{
+    font-family: 'Poppins';
+    font-size:41px;    
+}
+.text p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+.image{
+    margin-left: 4rem;
+}
+.mockups{
+    max-width: 100%;
+}
+.btn1{
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+    padding: 1.2rem;
+    width: 17rem;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin-top: 1rem;
+}
+section{
+    background-color: white;
+    padding: 9rem 7rem 20rem;
+}
+.container1{
+    border-radius:1rem;
+    box-shadow: 1px 1px 3px 3px #e2dada;
+    display: grid;
+    grid-template-columns:60% 40%;
+    align-items: center;
+    justify-content: center;
+}
+.container1 .text{
+    padding: 7rem;
+}
+.grow-tgd{
+    margin: 3rem;
+}
+.grow-together{
+    max-width: 100%;
+}
+.container2{
+    border-radius:1rem;
+    box-shadow: 1px 1px 3px 3px #e2dada;
+    display: grid;
+    grid-template-columns:44% 56%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+.flowing-con{
+    margin-left: 7rem;
+}
+.flowing-conversations{
+    max-width: 100%;
+}
+.container2 .text{
+    padding: 9rem 2rem 9rem 9rem;
+}
+.container3{
+    border-radius:1rem;
+    box-shadow: 1px 1px 3px 3px #e2dada;
     display: flex;
-    justify-content: space-between;
+    grid-template-columns:60% 40%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
 }
+.container3 .text{
+    padding: 7rem;
+}
+.your-use{
+    margin: 3rem 2rem;
+}
+.your-users{
+    max-width: 100%;
+}
+footer{
+    background-color:  hsl(192, 100%, 9%);
+}
+@media screen(max-width: 700px;){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .hdr-btm{
+        align-content: center;
+        justify-content:center;
+    }
+    
+} (max.   {}
