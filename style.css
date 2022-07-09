@@ -187,7 +187,8 @@ footer{
     height:18px;
     padding:.5rem;
     border:1px solid;
-    border-radius:17px;
+    border-radius:50%;
+    display: inline-block;
     margin:6px 6px 0px 0px;
 }
 #logo:hover{
@@ -208,6 +209,9 @@ footer{
     margin: auto;
 }
 @media(max-width:1322px){
+    .hdr-btm .text h1{
+        font-size:2.2em;
+    }
     body{
         margin: 2.2rem;
     }    
@@ -283,7 +287,7 @@ footer{
         max-width: 30%;
     }
     .hdr-btm .text h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     section{
         padding: 6rem 3rem 15rem; 
@@ -705,6 +709,9 @@ footer{
     }
 }
 @media (max-width:360px){
+    .hdr-btm .text h1{
+        font-size:1.5em;
+    }
     section{
         padding: 5rem 1rem 12rem; 
     }
